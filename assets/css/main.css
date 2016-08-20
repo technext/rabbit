@@ -19,6 +19,19 @@ body{
 	.img-rabbit{
 		margin: 0 -15px;
 	}
+	.social a i{
+	height: 40px;
+	width: 40px;
+	border: 1px solid #111;
+	line-height: 40px;
+	margin: 0 10px;
+	color: #111;
+	font-size: 20px;
+}
+.social a:hover i{
+	color: #fff;
+	border-color: #bb9e7d;
+	background-color: #bb9e7d;}
 
 }
 .btn-rabbit{
@@ -119,19 +132,7 @@ footer{
 
 }
 
-.social a i{
-	height: 40px;
-	width: 40px;
-	border: 1px solid #111;
-	line-height: 40px;
-	margin: 0 10px;
-	color: #111;
-	font-size: 20px;
-}
-.social a:hover i{
-	color: #fff;
-	border-color: #bb9e7d;
-	background-color: #bb9e7d;}
+
 .btn{
 	padding: 10px 60px;
 	height: 45px;
