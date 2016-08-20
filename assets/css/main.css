@@ -16,6 +16,10 @@ body{
 		height: 105vh;
 		overflow: hidden;
 	}
+	.img-rabbit{
+		margin: 0 -15px;
+	}
+
 }
 .btn-rabbit{
 	background-color: #fff;
@@ -81,7 +85,8 @@ p{
 	font-family: "Crimson";
 	/*font-weight: normal;*/
 	font-size: 15px;
-	padding-right: 10px;
+	padding-right: 110px;
+	padding-left: 110px;
     padding-top: 15px;
     padding-bottom: 25px;
 }
@@ -92,16 +97,15 @@ footer{
 	}
 
 .back{
-	margin-top: 135px;
     width: 170px;    
     font-family: "Crimson";
-    font-size: 16px;
+    font-size: 17px;
     font-style: italic;
     vertical-align: middle;
     text-align: center;
-    /*padding: 10px 45px;*/
-    /*margin-left: -17px;
-    margin-right: 17px;*/
+    display: block;
+    clear: both;
+    margin-top: 130px;	 
 }
 .back i{
 	margin-left: -40px;
@@ -111,11 +115,8 @@ footer{
 
 .form-control{
 	margin-top: 30px;
+	width: 75%;
 
-}
-
-.img-rabbit{
-	margin: 0 -15px;
 }
 
 .social a i{
@@ -125,6 +126,7 @@ footer{
 	line-height: 40px;
 	margin: 0 10px;
 	color: #111;
+	font-size: 20px;
 }
 .social a:hover i{
 	color: #fff;
@@ -133,6 +135,7 @@ footer{
 .btn{
 	padding: 10px 60px;
 	height: 45px;
+	font-size: 16px;
 }
 
 .btn-group-vertical{
@@ -157,11 +160,10 @@ footer{
 
 .info{
 	font-family: "Crimson";
-	font-style: italic;
-	/*width: 405px;*/
-	
-	line-height: 25px;
-	font-size: 14px;
+	line-height: 28px;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-right: 50px;
 }
 .page-title{
 	
@@ -189,4 +191,24 @@ footer{
 }
 .bottom{
 	padding-right: 60px;
+}
+
+.page-title{
+	position: relative;
+	display: inline-block;
+}
+.page-title:after, .page-title:before{
+	content: '';
+	position: absolute;
+	height: 1px;
+	background-color: green;
+	left: 0;
+}
+.page-title:after{
+	width: 50%;
+	top: -10px;
+}
+.page-title:before{
+	width: 30%;
+	bottom: -10px;
 }
