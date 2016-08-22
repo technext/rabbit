@@ -51,6 +51,17 @@ body{
 		    padding-top: 15px;
 		    padding-right: 50px;
 		}
+		.home-description{
+			font-style: italic;
+			font-weight: 700;
+			font-family: "Crimson";
+			/*font-weight: normal;*/
+			font-size: 15px;
+			padding-right: 110px;
+			padding-left: 110px;
+		    padding-top: 15px;
+		    padding-bottom: 25px;
+		}
 
 }
 
@@ -215,14 +226,4 @@ footer{
 			padding-right: 40px;
 		}
 
-    	.home-description{
-			font-style: italic;
-			font-weight: 700;
-			font-family: "Crimson";
-			/*font-weight: normal;*/
-			font-size: 15px;
-			padding-right: 110px;
-			padding-left: 110px;
-		    padding-top: 15px;
-		    padding-bottom: 25px;
-		}
+    	
