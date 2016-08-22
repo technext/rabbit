@@ -200,13 +200,13 @@ footer{
 
 .page-title:after{
 	width: 75%;
-	top: -12px;
+	top: -14px;
 
 }
 
 .page-title:before{
 	width: 40%;
-	bottom: -8px;
+	bottom: -7px;
 }
 
 .submit{
