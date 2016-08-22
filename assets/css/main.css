@@ -6,18 +6,13 @@ body{
 	font-family: "Crimson Text";
 }
 
+
 .main{
 	background: #fff;
 }
-@media (min-width: 778px){
-		.main{
-			height: 105vh;
-			overflow: hidden;
-		}
-		.img-rabbit{
-			margin: 0 -15px;
-		}
-		.social a i{
+
+
+.social a i{
 		height: 40px;
 		width: 40px;
 		border: 1px solid #111;
@@ -26,12 +21,51 @@ body{
 		color: #111;
 		font-size: 20px;
 	}
+
 	.social a:hover i{
 		color: #fff;
 		border-color: #bb9e7d;
-		background-color: #bb9e7d;}
-
+		background-color: #bb9e7d;
 	}
+
+
+@media (min-width: 778px)
+{
+		.main{
+			height: 105vh;
+			overflow: hidden;
+		}
+
+		.img-rabbit{
+			margin: 0 -15px;
+		}
+
+		.btn-group-vertical{
+    		padding: 20px 87.5px;
+    	}
+
+    	.info{
+			font-family: "Crimson";
+			line-height: 28px;
+		    font-size: 16px;
+		    padding-top: 15px;
+		    padding-right: 50px;
+		}
+		
+		.home-description{
+			font-style: italic;
+			font-weight: 700;
+			font-family: "Crimson";
+			/*font-weight: normal;*/
+			font-size: 15px;
+			padding-right: 110px;
+			padding-left: 110px;
+		    padding-top: 15px;
+		    padding-bottom: 25px;
+		}
+
+}
+
 	.btn-rabbit{
 		background-color: #fff;
 		color: #111;
@@ -49,26 +83,10 @@ body{
 		background-color: #bb9e7d;
 		border-color: #bb9e7d;}
 
-
-
 p{
 	color: #585757;
 	font-size: 16px;
 	
-}
-
-.subtitle{
-	font-style: italic;
-	font-weight: 700;
-	font-size: 20px;
-	color: #3b3b3b;
-	
-	line-height: 22px;
-	
-	font-family: "Crimson";
-	margin-top: 15px;
-	margin-bottom: 20px;
-	padding-right: 40px;
 }
 
 .page-title{
@@ -87,22 +105,12 @@ p{
 	font-family: 'Josefin Sans';
 }
 
-.home-description{
-	font-style: italic;
-	font-weight: 700;
-	font-family: "Crimson";
-	/*font-weight: normal;*/
-	font-size: 15px;
-	padding-right: 110px;
-	padding-left: 110px;
-    padding-top: 15px;
-    padding-bottom: 25px;
-}
 
 footer{
-	padding: 15px 0 10px 0;
+	padding: 22px 0 10px 0;
 	font-style: italic;
 	}
+
 
 .back{
     width: 170px;    
@@ -115,11 +123,13 @@ footer{
     clear: both;
     margin-top: 130px;	 
 }
+
 .back i{
 	margin-left: -40px;
     margin-right: 17px;
     font-size: 20px;
 }
+
 
 .form-control{
 	margin-top: 30px;
@@ -134,10 +144,12 @@ footer{
 	font-size: 16px;
 }
 
+
 .btn-group-vertical{
-    padding: 20px 87.5px;
+    /*padding: 20px 87.5px;*/
     font-family: "Josefin Sans";    
 }
+
 
 .about{
 	font-family: "Josefin Sans";
@@ -145,40 +157,30 @@ footer{
 	
 	margin-bottom: 25px;
 	font-size: 32px;
-	/*height: 30px;*/
+	
 }
 .form-control{
 	font-style: italic;
-	
+	border-radius: 0;
 	font-family: "Crimson"
 	font-size: 16px;
 }
 
-.info{
-	font-family: "Crimson";
-	line-height: 28px;
-    font-size: 16px;
-    padding-top: 15px;
-    padding-right: 50px;
-}
 .page-title{
 	
 	font-size: 32px;
 	font-family: "Josefin Sans"
 }
 
-.submit{
-
-	font-family: "Crimson"
-	font-size: 16px;
-}
 .fa-heartbeat{
 	    color: #bb9e7d;
 }
+
 ::selection {
   color: #fff;
   background-color: #bb9e7d;
 }
+
 .bottom{
 	padding-right: 20px;
 }
@@ -187,18 +189,41 @@ footer{
 	position: relative;
 	display: inline-block;
 }
+
 .page-title:after, .page-title:before{
 	content: '';
 	position: absolute;
 	height: 1px;
-	background-color: green;
+	background-color: black;
 	left: 0;
+	margin: 2px;
 }
+
+.submit{
+
+	font-family: "Crimson"
+	font-size: 16px;
+}
+
+.subtitle{
+			font-style: italic;
+			font-weight: 700;
+			font-size: 20px;
+			color: #3b3b3b;
+			line-height: 22px;
+			font-family: "Crimson";
+			margin-top: 15px;
+			margin-bottom: 20px;
+			padding-right: 40px;
+		}
 .page-title:after{
-	width: 50%;
-	top: -10px;
+			width: 75%;
+			top: -9px;
+
 }
-.page-title:before{
-	width: 30%;
-	bottom: -10px;
+
+		.page-title:before{
+			width: 40%;
+			bottom: -7px;
 }
+    	
