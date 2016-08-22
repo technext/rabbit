@@ -51,6 +51,16 @@ body{
 		    padding-top: 15px;
 		    padding-right: 50px;
 		}
+		.page-title:after{
+			
+			top: -12px;
+
+}
+
+		.page-title:before{
+			
+			bottom: -8px;
+}
 		.home-description{
 			font-style: italic;
 			font-weight: 700;
