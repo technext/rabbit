@@ -1,7 +1,5 @@
-/*Global*/
-@import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,700,700italic);
-@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:700);
-@import url(http://fontawesome.io/assets/font-awesome/css/font-awesome.css);
+
+
 
 body{
 	background-color: #f9f9f9;
@@ -44,7 +42,6 @@ body{
 	margin-bottom: 20px;
 	font-family: "Crimson";
 	font-size: 13px;
-	/*margin-left: 40px;*/
 }
 
 .btn-rabbit:hover{
@@ -52,9 +49,7 @@ body{
 	background-color: #bb9e7d;
 	border-color: #bb9e7d;}
 
-/*.btn-rabbit send{
-	margin-left: 40px;
-}*/
+
 
 p{
 	color: #585757;
@@ -171,13 +166,7 @@ footer{
 	font-size: 32px;
 	font-family: "Josefin Sans"
 }
-/*.w_info{
-	font-family: "Crimson";
-	font-size: 14px;
-	margin-left: 40px;
-	width: 460px;
-	line-height: 25px;*/
-}
+
 .submit{
 
 	font-family: "Crimson"
