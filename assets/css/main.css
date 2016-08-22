@@ -52,14 +52,14 @@ body{
 		    padding-right: 50px;
 		}
 		.page-title:after{
-			
-			top: -11px;
+			width: 75%;
+			top: -9px;
 
 }
 
 		.page-title:before{
-			
-			bottom: -10px;
+			width: 40%;
+			bottom: -7px;
 }
 		.home-description{
 			font-style: italic;
@@ -208,16 +208,16 @@ footer{
 	margin: 7px;
 }
 
-.page-title:after{
+/*.page-title:after{
 	width: 75%;
-	top: -14px;
+	/*top: -14px;*/
 
 }
 
-.page-title:before{
-	width: 40%;
-	bottom: -7px;
-}
+/*.page-title:before{*/
+	/*width: 40%;*/
+	/*bottom: -7px;*/
+}*/
 
 .submit{
 
