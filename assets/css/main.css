@@ -9,15 +9,7 @@ body{
 .main{
 	background: #fff;
 }
-@media (min-width: 778px){
-		.main{
-			height: 105vh;
-			overflow: hidden;
-		}
-		.img-rabbit{
-			margin: 0 -15px;
-		}
-		.social a i{
+.social a i{
 		height: 40px;
 		width: 40px;
 		border: 1px solid #111;
@@ -29,7 +21,17 @@ body{
 	.social a:hover i{
 		color: #fff;
 		border-color: #bb9e7d;
-		background-color: #bb9e7d;}
+		background-color: #bb9e7d;
+	}
+@media (min-width: 778px){
+		.main{
+			height: 105vh;
+			overflow: hidden;
+		}
+		.img-rabbit{
+			margin: 0 -15px;
+		}
+
 
 	}
 	.btn-rabbit{
