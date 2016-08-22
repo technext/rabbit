@@ -10,44 +10,44 @@ body{
 	background: #fff;
 }
 @media (min-width: 778px){
-	.main{
-		height: 105vh;
-		overflow: hidden;
+		.main{
+			height: 105vh;
+			overflow: hidden;
+		}
+		.img-rabbit{
+			margin: 0 -15px;
+		}
+		.social a i{
+		height: 40px;
+		width: 40px;
+		border: 1px solid #111;
+		line-height: 40px;
+		margin: 0 10px;
+		color: #111;
+		font-size: 20px;
 	}
-	.img-rabbit{
-		margin: 0 -15px;
+	.social a:hover i{
+		color: #fff;
+		border-color: #bb9e7d;
+		background-color: #bb9e7d;}
+
 	}
-	.social a i{
-	height: 40px;
-	width: 40px;
-	border: 1px solid #111;
-	line-height: 40px;
-	margin: 0 10px;
-	color: #111;
-	font-size: 20px;
-}
-.social a:hover i{
-	color: #fff;
-	border-color: #bb9e7d;
-	background-color: #bb9e7d;}
+	.btn-rabbit{
+		background-color: #fff;
+		color: #111;
+		font-style: italic;
+		border: 1px solid #111;
+		border-radius: 0px !important;
+		transition: all 0.4s ease-in-out;
+		margin-bottom: 20px;
+		font-family: "Crimson";
+		font-size: 13px;
+	}
 
-}
-.btn-rabbit{
-	background-color: #fff;
-	color: #111;
-	font-style: italic;
-	border: 1px solid #111;
-	border-radius: 0px !important;
-	transition: all 0.4s ease-in-out;
-	margin-bottom: 20px;
-	font-family: "Crimson";
-	font-size: 13px;
-}
-
-.btn-rabbit:hover{
-	color: #fff;
-	background-color: #bb9e7d;
-	border-color: #bb9e7d;}
+	.btn-rabbit:hover{
+		color: #fff;
+		background-color: #bb9e7d;
+		border-color: #bb9e7d;}
 
 
 
