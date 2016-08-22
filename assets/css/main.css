@@ -52,30 +52,6 @@ body{
 		    padding-right: 50px;
 		}
 
-    	.subtitle{
-			font-style: italic;
-			font-weight: 700;
-			font-size: 20px;
-			color: #3b3b3b;
-			line-height: 22px;
-			font-family: "Crimson";
-			margin-top: 15px;
-			margin-bottom: 20px;
-			padding-right: 40px;
-		}
-
-    	.home-description{
-			font-style: italic;
-			font-weight: 700;
-			font-family: "Crimson";
-			/*font-weight: normal;*/
-			font-size: 15px;
-			padding-right: 110px;
-			padding-left: 110px;
-		    padding-top: 15px;
-		    padding-bottom: 25px;
-		}
-
 }
 
 	.btn-rabbit{
@@ -226,3 +202,27 @@ footer{
 	font-family: "Crimson"
 	font-size: 16px;
 }
+
+.subtitle{
+			font-style: italic;
+			font-weight: 700;
+			font-size: 20px;
+			color: #3b3b3b;
+			line-height: 22px;
+			font-family: "Crimson";
+			margin-top: 15px;
+			margin-bottom: 20px;
+			padding-right: 40px;
+		}
+
+    	.home-description{
+			font-style: italic;
+			font-weight: 700;
+			font-family: "Crimson";
+			/*font-weight: normal;*/
+			font-size: 15px;
+			padding-right: 110px;
+			padding-left: 110px;
+		    padding-top: 15px;
+		    padding-bottom: 25px;
+		}
