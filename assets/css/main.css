@@ -53,13 +53,13 @@ body{
 		}
 		.page-title:after{
 			
-			top: -12px;
+			top: -11px;
 
 }
 
 		.page-title:before{
 			
-			bottom: -8px;
+			bottom: -10px;
 }
 		.home-description{
 			font-style: italic;
