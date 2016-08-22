@@ -158,14 +158,14 @@ footer{
 .form-control{
 	font-style: italic;
 	border-radius: 0;
-	font-family: "Crimson"
+	font-family: "Crimson";
 	font-size: 16px;
 }
 
 .page-title{
 	
 	font-size: 32px;
-	font-family: "Josefin Sans"
+	font-family: "Josefin Sans";
 }
 
 .fa-heartbeat{
