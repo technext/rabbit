@@ -222,4 +222,18 @@ footer{
 			width: 40%;
 			bottom: -7px;
 }
-    	
+
+#watermark {
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	position: absolute;
+    margin-top: -71px;
+    margin-left: -4px;
+}
+
+#watermark p {
+	font-size: 60px;
+	opacity: 0.5;
+	font-family: "Josefin Sans";
+	text-transform: uppercase;
+}
