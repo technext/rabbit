@@ -1,11 +1,7 @@
-
-
-
 body{
 	background-color: #f9f9f9;
 	font-family: "Crimson Text";
 }
-
 
 .main{
 	background: #fff;
@@ -162,14 +158,14 @@ footer{
 .form-control{
 	font-style: italic;
 	border-radius: 0;
-	font-family: "Crimson"
+	font-family: "Crimson";
 	font-size: 16px;
 }
 
 .page-title{
 	
 	font-size: 32px;
-	font-family: "Josefin Sans"
+	font-family: "Josefin Sans";
 }
 
 .fa-heartbeat{
@@ -222,8 +218,22 @@ footer{
 
 }
 
-		.page-title:before{
+.page-title:before{
 			width: 40%;
 			bottom: -7px;
 }
-    	
+
+#watermark {
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	position: absolute;
+    margin-top: -71px;
+    margin-left: -4px;
+}
+
+#watermark p {
+	font-size: 60px;
+	opacity: 0.5;
+	font-family: "Josefin Sans";
+	text-transform: uppercase;
+}
