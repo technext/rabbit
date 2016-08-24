@@ -1,8 +1,3 @@
-/*Global*/
-@import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,700,700italic);
-@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:700);
-@import url(http://fontawesome.io/assets/font-awesome/css/font-awesome.css);
-
 body{
 	background-color: #f9f9f9;
 	font-family: "Crimson Text";
@@ -11,49 +6,83 @@ body{
 .main{
 	background: #fff;
 }
-@media (min-width: 778px){
-	.main{
-		height: 100vh;
-		overflow: hidden;
+
+
+.social a i{
+		height: 40px;
+		width: 40px;
+		border: 1px solid #111;
+		line-height: 40px;
+		margin: 0 10px;
+		color: #111;
+		font-size: 20px;
 	}
-}
-.btn-rabbit{
-	background-color: #fff;
-	color: #111;
-	font-style: italic;
-	border: 1px solid #111;
-	border-radius: 0px !important;
-	transition: all 0.4s ease-in-out;
-	margin-bottom: 20px;
-	font-family: "Crimson";
-	font-size: 13px;
-	/*margin-left: 40px;*/
+
+	.social a:hover i{
+		color: #fff;
+		border-color: #bb9e7d;
+		background-color: #bb9e7d;
+	}
+
+
+@media (min-width: 778px)
+{
+		.main{
+			height: 100vh;
+			overflow: hidden;
+		}
+
+		.img-rabbit{
+			margin: 0 -15px;
+		}
+
+		.btn-group-vertical{
+    		padding: 20px 87.5px;
+    	}
+
+    	.info{
+			font-family: "Crimson";
+			line-height: 28px;
+		    font-size: 16px;
+		    padding-top: 15px;
+		    padding-right: 50px;
+		}
+		
+		.home-description{
+			font-style: italic;
+			font-weight: 700;
+			font-family: "Crimson";
+			/*font-weight: normal;*/
+			font-size: 15px;
+			padding-right: 110px;
+			padding-left: 110px;
+		    padding-top: 15px;
+		    padding-bottom: 25px;
+		}
+
 }
 
-.btn-rabbit:hover{
-	color: #fff;
-	background-color: #bb9e7d;
-	border-color: #bb9e7d;}
+	.btn-rabbit{
+		background-color: #fff;
+		color: #111;
+		font-style: italic;
+		border: 1px solid #111;
+		border-radius: 0px !important;
+		transition: all 0.4s ease-in-out;
+		margin-bottom: 20px;
+		font-family: "Crimson";
+		font-size: 13px;
+	}
 
-/*.btn-rabbit send{
-	margin-left: 40px;
-}*/
+	.btn-rabbit:hover{
+		color: #fff;
+		background-color: #bb9e7d;
+		border-color: #bb9e7d;}
 
 p{
 	color: #585757;
 	font-size: 16px;
 	
-}
-
-.subtitle{
-	font-style: italic;
-	font-weight: 700;
-	font-size: 20px;
-	color: #3b3b3b;
-	margin-left: 40px;
-	line-height: 22px;
-	width: 485px;
-	font-family: "Crimson"
 }
 
 .page-title{
@@ -72,109 +101,138 @@ p{
 	font-family: 'Josefin Sans';
 }
 
-.home-description{
-	font-style: italic;
-	font-weight: 700;
-	font-family: "Crimson";
-	/*font-weight: normal;*/
-	font-size: 15px;
-	width: 310px;
-    margin-left: 115px;
-    padding-top: 15px;
-    padding-bottom: 25px;
-}
 
 footer{
-	padding: 15px 0 10px 0;
+	padding: 22px 0 10px 0;
 	font-style: italic;
 	}
 
+
 .back{
-	margin-top: 135px;
-    margin-left: 40px;
+    width: 170px;    
     font-family: "Crimson";
-    font-size: 16px;
+    font-size: 17px;
     font-style: italic;
     vertical-align: middle;
     text-align: center;
-    padding: 10px 45px;
+    display: block;
+    clear: both;
+    margin-top: 70px;	 
 }
+
+.back i{
+	margin-left: -40px;
+    margin-right: 17px;
+    font-size: 20px;
+}
+
 
 .form-control{
 	margin-top: 30px;
-	width: 430px;
+	width: 75%;
+
 }
 
-.img-rabbit{
-	margin: 0 -15px;
-}
 
-.social a i{
-	height: 40px;
-	width: 40px;
-	border: 1px solid #111;
-	line-height: 40px;
-	margin: 0 10px;
-	color: #111;
-}
-.social a:hover i{
-	color: #fff;
-	border-color: #bb9e7d;
-	background-color: #bb9e7d;}
 .btn{
-	padding: 6px 60px;
-	height: 40px;
+	padding: 10px 60px;
+	height: 45px;
+	font-size: 16px;
 }
+
 
 .btn-group-vertical{
-    padding: 20px 87.5px;
+    /*padding: 20px 87.5px;*/
     font-family: "Josefin Sans";    
 }
+
 
 .about{
 	font-family: "Josefin Sans";
 	margin-top: 35px;
-	margin-left: 40px;
+	
 	margin-bottom: 25px;
 	font-size: 32px;
-	/*height: 30px;*/
+	
 }
 .form-control{
 	font-style: italic;
-	margin-left: 40px;
+	border-radius: 0;
+	font-family: "Crimson";
+	font-size: 16px;
+}
+
+.page-title{
+	
+	font-size: 32px;
+	font-family: "Josefin Sans";
+}
+
+.fa-heartbeat{
+	    color: #bb9e7d;
+}
+
+::selection {
+  color: #fff;
+  background-color: #bb9e7d;
+}
+
+.bottom{
+	padding-right: 20px;
+}
+
+.page-title{
+	position: relative;
+	display: inline-block;
+}
+
+.page-title:after, .page-title:before{
+	content: '';
+	position: absolute;
+	height: 1px;
+	background-color: black;
+	left: 0;
+	margin: 2px;
+}
+
+.submit{
+
 	font-family: "Crimson"
 	font-size: 16px;
 }
 
-.info{
-	font-family: "Crimson";
-	font-style: italic;
-	width: 405px;
-	margin-left: 40px;
-	line-height: 25px;
-	font-size: 14px;
+.subtitle{
+			font-style: italic;
+			font-weight: 700;
+			font-size: 20px;
+			color: #3b3b3b;
+			line-height: 22px;
+			font-family: "Crimson";
+			margin-top: 15px;
+			margin-bottom: 20px;
+			padding-right: 40px;
+		}
+.page-title:after{
+			width: 75%;
+			top: -9px;
+
 }
-.page-title{
-	margin-left: 40px;
-	font-size: 32px;
-	font-family: "Josefin Sans"
+
+.page-title:before{
+			width: 40%;
+			bottom: -7px;
 }
-.w_info{
-	font-family: "Crimson";
-	font-size: 14px;
-	margin-left: 40px;
-	width: 460px;
-	line-height: 25px;
+
+#watermark .marker{
+	position: absolute;
+	font-size: 60px;
+	opacity: 0.1;
+	font-family: "Josefin Sans";
+	text-transform: uppercase;
+	left: 0;
+	top: -5px;
 }
-.submit{
-	margin-left: 40px;
-	font-family: "Crimson"
-	font-size: 16px;
-}
-.fa-heartbeat{
-	    color: #bb9e7d;
-}
-::selection {
-  color: #fff;
-  background-color: #bb9e7d;
+
+#watermark{
+	position: relative;
 }
