@@ -6,6 +6,7 @@ body{
 .main{
 	background: #fff;
 }
+
 .home-description{
 	font-style: italic;
 	font-weight: 700;
@@ -16,20 +17,20 @@ body{
 }
 
 .social a i{
-		height: 40px;
-		width: 40px;
-		border: 1px solid #111;
-		line-height: 40px;
-		margin: 0 10px;
-		color: #111;
-		font-size: 20px;
-		padding-bottom: 20px;
+	height: 40px;
+	width: 40px;
+	border: 1px solid #111;
+	line-height: 40px;
+	margin: 0 10px;
+	color: #111;
+	font-size: 20px;
+	padding-bottom: 20px;
 	}
 
-	.social a:hover i{
-		color: #fff;
-		border-color: #bb9e7d;
-		background-color: #bb9e7d;
+.social a:hover i{
+	color: #fff;
+	border-color: #bb9e7d;
+	background-color: #bb9e7d;
 	}
 
 
@@ -63,22 +64,22 @@ body{
 
 }
 
-	.btn-rabbit{
-		background-color: #fff;
-		color: #111;
-		font-style: italic;
-		border: 1px solid #111;
-		border-radius: 0px !important;
-		transition: all 0.4s ease-in-out;
-		margin-bottom: 20px;
-		font-family: "Crimson";
-		font-size: 13px;
+.btn-rabbit{
+	background-color: #fff;
+	color: #111;
+	font-style: italic;
+	border: 1px solid #111;
+	border-radius: 0px !important;
+	transition: all 0.4s ease-in-out;
+	margin-bottom: 20px;
+	font-family: "Crimson";
+	font-size: 13px;
 	}
 
-	.btn-rabbit:hover{
-		color: #fff;
-		background-color: #bb9e7d;
-		border-color: #bb9e7d;}
+.btn-rabbit:hover{
+	color: #fff;
+	background-color: #bb9e7d;
+	border-color: #bb9e7d;}
 
 p{
 	color: #585757;
@@ -174,8 +175,8 @@ footer{
 }
 
 ::selection {
-  color: #fff;
-  background-color: #bb9e7d;
+	color: #fff;
+   	background-color: #bb9e7d;
 }
 
 .bottom{
@@ -203,25 +204,25 @@ footer{
 }
 
 .subtitle{
-			font-style: italic;
-			font-weight: 700;
-			font-size: 20px;
-			color: #3b3b3b;
-			line-height: 22px;
-			font-family: "Crimson";
-			margin-top: 15px;
-			margin-bottom: 20px;
-			padding-right: 40px;
-		}
+	font-style: italic;
+	font-weight: 700;
+	font-size: 20px;
+	color: #3b3b3b;
+	line-height: 22px;
+	font-family: "Crimson";
+	margin-top: 15px;
+	margin-bottom: 20px;
+	padding-right: 40px;
+	}
 .page-title:after{
-			width: 75%;
-			top: -9px;
+	width: 75%;
+	top: -9px;
 
 }
 
 .page-title:before{
-			width: 40%;
-			bottom: -7px;
+	width: 40%;
+	bottom: -7px;
 }
 
 #watermark .marker{
