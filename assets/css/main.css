@@ -28,7 +28,7 @@ body{
 @media (min-width: 778px)
 {
 		.main{
-			height: 105vh;
+			height: 100vh;
 			overflow: hidden;
 		}
 
@@ -117,7 +117,7 @@ footer{
     text-align: center;
     display: block;
     clear: both;
-    margin-top: 130px;	 
+    margin-top: 70px;	 
 }
 
 .back i{
@@ -223,17 +223,16 @@ footer{
 			bottom: -7px;
 }
 
-#watermark {
-	background-position: 0 0;
-	background-repeat: no-repeat;
+#watermark .marker{
 	position: absolute;
-    margin-top: -71px;
-    margin-left: -4px;
-}
-
-#watermark p {
-	font-size: 60px;
+	font-size: 66px;
 	opacity: 0.1;
 	font-family: "Josefin Sans";
 	text-transform: uppercase;
+	left: 0;
+	top: -11px;
+}
+
+#watermark{
+	position: relative;
 }
