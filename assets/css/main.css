@@ -257,7 +257,7 @@ footer{
     text-align: center;
     width: 100%;
     position: absolute;
-    top: calc(42% - 40px);
+    top: calc(50% - 40px);
 		}
 
 .owl-next{
