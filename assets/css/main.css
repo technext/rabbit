@@ -64,11 +64,6 @@ body{
 			padding-left: 90px;
 			
 		}
-
-		/*.owl-theme .owl-controls {
-		    top: calc(43% - 40px);
-		}
-		*/
 }
 
 .btn-rabbit{
@@ -199,6 +194,10 @@ footer{
 	margin: 2px;
 }
 
+.social{
+	padding-bottom: 15px;
+}
+
 .submit{
 
 	font-family: "Crimson"
@@ -261,7 +260,7 @@ footer{
     text-align: center;
     width: 100%;
     position: absolute;
-    top: calc(45% - 40px);
+    top: calc(44% - 40px);
 		}
 
 .owl-next{
@@ -290,8 +289,9 @@ footer{
 	
 }
 
-.owl-theme .owl-controls .owl-nav [class*=owl-]:hover{
-	color: #fff;
+.owl-theme .owl-controls .owl-nav [class*=owl-]:hover, .owl-theme .owl-controls .owl-nav [class*=owl-] i:hover{
+	font-color: #fff;
 	background-color: #bb9e7d;
 	border-color: #bb9e7d;
 }
+
