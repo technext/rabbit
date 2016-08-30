@@ -289,9 +289,11 @@ footer{
 	
 }
 
-.owl-theme .owl-controls .owl-nav [class*=owl-]:hover, .owl-theme .owl-controls .owl-nav [class*=owl-] i:hover{
+.owl-theme .owl-controls .owl-nav [class*=owl-]:hover {
 	font-color: #fff;
 	background-color: #bb9e7d;
 	border-color: #bb9e7d;
 }
-
+.owl-theme .owl-controls .owl-nav [class*=owl-] i:hover{
+	color: #fff;
+}
