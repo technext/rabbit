@@ -64,7 +64,11 @@ body{
 			padding-left: 90px;
 			
 		}
-		
+
+		/*.owl-theme .owl-controls {
+		    top: calc(43% - 40px);
+		}
+		*/
 }
 
 .btn-rabbit{
@@ -257,7 +261,7 @@ footer{
     text-align: center;
     width: 100%;
     position: absolute;
-    top: calc(50% - 40px);
+    top: calc(45% - 40px);
 		}
 
 .owl-next{
