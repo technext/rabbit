@@ -276,14 +276,16 @@ footer{
 	padding-left: 1px;
 }
 
+
+
 .owl-theme .owl-controls .owl-nav [class*=owl-]{
 	position: absolute;
 	border-radius: 0px;
 	font-size: 21px;
 	padding: 15px 20px;
 	margin: 0px;
-	background-color: #fff;
-	
+	background-color: #fff; 
+
 }
 
 .owl-theme .owl-controls .owl-nav [class*=owl-] i{
@@ -291,8 +293,7 @@ footer{
 	
 }
 
-.owl-theme .owl-controls .owl-nav [class*=owl-]:hover {
-	font-color: #fff;
+.owl-theme .owl-controls .owl-nav [class*=owl-]:hover{
 	background-color: #bb9e7d;
 	border-color: #bb9e7d;
 }
