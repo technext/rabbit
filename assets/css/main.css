@@ -65,7 +65,9 @@ body{
 			
 		}
 }
-
+.img-rabbit{
+	width: 100%;
+}
 .btn-rabbit{
 	background-color: #fff;
 	color: #111;
@@ -294,6 +296,11 @@ footer{
 	background-color: #bb9e7d;
 	border-color: #bb9e7d;
 }
-.owl-theme .owl-controls .owl-nav [class*=owl-] i:hover{
+.owl-theme .owl-controls .owl-nav [class*=owl-]:hover i{
 	color: #fff;
+}
+@media (max-width: 1024px) and (orientation: landscape){
+	.main{
+		height: auto;
+	}
 }
