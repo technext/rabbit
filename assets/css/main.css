@@ -44,7 +44,7 @@ body{
 		}
 
 		.img-rabbit{
-			margin: 0 -15px;
+			/*margin: 0 -15px;*/
 		}
 
 		.btn-group-vertical{
@@ -151,8 +151,8 @@ footer{
 
 .about{
 	font-family: "Josefin Sans";
-	margin-top: 35px;
-	margin-bottom: 25px;
+	/*margin-top: 35px;*/
+	/*margin-bottom: 25px;*/
 	font-size: 32px;
 	
 }
@@ -253,7 +253,7 @@ footer{
     display: block;
     width: 100%;
     height: auto;
-    margin-left: 0px;
+    /*margin-left: 0px;*/
 }
 
 .owl-theme .owl-controls {
@@ -304,4 +304,12 @@ footer{
 	.main{
 		height: auto;
 	}
+}
+.custom_btn{
+  -vendor-animation-duration: 3s;
+  -vendor-animation-delay: 2s;
+  -vendor-animation-iteration-count: infinite;
+}
+.show{
+	display: block;
 }
